@@ -16,3 +16,4 @@ Use `console.log()`, `console.warn()` or `console.info()` functions to log-to-fi
 3. Log some stuff, you should see a "log.txt" file in the directory.
 
 #### Huge improvements on the way! Stay tuned.
+###### I was supposed to be studying for exam but nah, I made this instead.
