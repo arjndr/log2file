@@ -1,0 +1,11 @@
+{
+  "name": "log-to-file",
+  "version": "0.0.1",
+  "description": "Log to file",
+  "main": "logtofile.js",
+  "scripts": {
+    "test": "echo no tests && exit 0"
+  },
+  "author": "Akash Rajendra",
+  "license": "MIT"
+}
