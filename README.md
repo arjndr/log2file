@@ -1,19 +1,20 @@
 # log-to-file
+This is a simple module to save logs for your NodeJS application!
 
-This module writes a log file instead of logging into the `console`
-
-Use `console.log()`, `console.warn()` or `console.info()` functions to log-to-file and `console.clear()` to clear the log file
-
-## How to use :
-1. Require the module 
-```js
-  var LogToFile = require('./logtofile.js')
-```
+# How to use :
+1. Require the module
+    ```js
+    var logToFile = require('./logtofile.js')
+    ```
 2. Initialize **log-to-file**
-```js
-  LogToFile()
-```
-3. Log some stuff, you should see a "log.txt" file in the directory.
+    ```js
+    logToFile(options)
+    ```
+    - `options`Object (required)
+        - `logFile`String : Name of the log file, defaults to `logfile.log`
+        - `enableTime`Boolean : Sets whether the log should contain time
+        - `logToConsole`Boolean : Sets whether you want to show the log on console or just save it to the file
+3. That's it!
 
-#### Huge improvements on the way! Stay tuned.
-###### I was supposed to be studying for exam but nah, I made this instead.
+### MIT (c) Akash Rajendra
+###### I was supposed to be studying for my exams, but no. I made this instead.
