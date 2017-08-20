@@ -1,12 +1,13 @@
-# log-to-file
+# log2file
 This is a simple module to save logs for your NodeJS application!
 
 # How to use :
+0. Install module using `npm install log2file`
 1. Require the module
     ```js
-    var logToFile = require('./logtofile.js')
+    var logToFile = require('log2file')
     ```
-2. Initialize **log-to-file**
+2. Initialize **log2file**
 
     `logToFile(options)`
     - `options`Object (required)
