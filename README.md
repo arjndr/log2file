@@ -7,6 +7,7 @@ This is a simple module to save logs for your NodeJS application!
     var logToFile = require('./logtofile.js')
     ```
 2. Initialize **log-to-file**
+
     `logToFile(options)`
     - `options`Object (required)
         - `logFile`String : Name of the log file, defaults to `logfile.log`
