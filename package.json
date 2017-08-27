@@ -1,11 +1,27 @@
 {
-  "name": "log-to-file",
-  "version": "0.0.2",
-  "description": "Log to file",
+  "name": "log2file",
+  "version": "0.0.3",
+  "description": "Simple node file logging module",
   "main": "logtofile.js",
   "scripts": {
     "test": "echo no tests && exit 0"
   },
-  "author": "Akash Rajendra",
+  "repository": {
+  	"type": "git",
+  	"url": "git://github.com/arjndr/log2file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arjndr/log2file/issues",
+    "email": "akash0rajendra@gmail.com"
+  },
+  "keywords": [
+    "log",
+    "logfile",
+    "filelogging"
+  ],
+  "author": {
+  	"name": "Akash Rajendra",
+  	"email": "akash0rajendra@gmail.com"
+  },
   "license": "MIT"
 }
